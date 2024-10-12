@@ -1,11 +1,10 @@
 "use client";
 import { useState } from "react";
-import ConnectionButton from "../components/ConnectionButton"; // Import the component
+import ConnectionButton from "../components/ConnectionButton";
 import ListNFTs from "../components/ListNFT";
 import NFTCatalog from "../components/nftCatalog";
 
 function App() {
-  // State variables for wallet connection status and address
   const [connected, setConnected] = useState(false);
   const [walletAddress, setWalletAddress] = useState("");
 
@@ -25,8 +24,8 @@ function App() {
           />
         </div>
       </div>
-      {/* Separar las secciones para evitar traslape */}
-      <div className="mt-20"> {/* Aumentar el margen superior para separar las secciones */}
+      
+      <div className="mt-20"> 
         <ListNFTs />
       </div>
       <div className="mt-20">
