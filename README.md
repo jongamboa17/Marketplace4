@@ -62,9 +62,9 @@ This smart contract in Solidity defines a non-fungible token (NFT) called MyNFT,
 
 ### Back End Stack 🛠️
 
-- **Hardhat** Hardhat is a development environment for Ethereum that allows developers to build, test, and deploy smart contracts and decentralized applications (dApps). It is a popular tool among blockchain developers due to its robust features and ease of use.
+- **Hardhat:** Hardhat is a development environment for Ethereum that allows developers to build, test, and deploy smart contracts and decentralized applications (dApps). It is a popular tool among blockchain developers due to its robust features and ease of use.
 
-- **Ethers.js** Ethers.js is a powerful JavaScript library designed to interact with the Ethereum blockchain. It provides a comprehensive set of tools for developers to build decentralized applications (dApps) and manage Ethereum-based assets.
+- **Ethers.js:** Ethers.js is a powerful JavaScript library designed to interact with the Ethereum blockchain. It provides a comprehensive set of tools for developers to build decentralized applications (dApps) and manage Ethereum-based assets.
 
 ### Front End Stack 🌐
 
