@@ -1,11 +1,11 @@
-## Project Overview
+## Project Overview 🚀
 
 This project features a decentralized marketplace for NFTs, built using Solidity smart contracts. The project leverages Hardhat for development and testing, Ethers.js for blockchain interaction, and a front-end built with Next.js and React to provide a seamless user experience.
 
 
-## Contracts in This Project
+## Contracts in This Project 📜
 
-### Marketplace.sol
+### Marketplace.sol 🏪
 
 This smart contract in Solidity defines a marketplace for NFTs (non-fungible tokens), where users can list, buy, and manage the sale of NFTs. Below are its main functions and features:
 
@@ -34,11 +34,11 @@ This smart contract in Solidity defines a marketplace for NFTs (non-fungible tok
 - **Update Price:** Allows sellers to modify the price of their listing, provided the NFT has not been sold.
 - **Get Listings:** Allows users to view all available NFT listings.
 
-#### Events
+#### Events 📢
 
 The contract emits several events to log important actions, such as when an NFT is listed, sold, canceled, or its price is updated. These events are useful for user interfaces and other applications to react to changes in the contract's state.
 
-### MyNFT.sol
+### MyNFT.sol 🎨
 
 This smart contract in Solidity defines a non-fungible token (NFT) called MyNFT, which allows users to create and manage NFTs. Below are its main functionalities and features:
 
@@ -60,32 +60,30 @@ This smart contract in Solidity defines a non-fungible token (NFT) called MyNFT,
 
 ## 👷 Stack
 
-### Back End Stack
+### Back End Stack 🛠️
 
 - **Hardhat** Hardhat is a development environment for Ethereum that allows developers to build, test, and deploy smart contracts and decentralized applications (dApps). It is a popular tool among blockchain developers due to its robust features and ease of use.
 
 - **Ethers.js** Ethers.js is a powerful JavaScript library designed to interact with the Ethereum blockchain. It provides a comprehensive set of tools for developers to build decentralized applications (dApps) and manage Ethereum-based assets.
 
-### Front End Stack
+### Front End Stack 🌐
 
 - **Next.js:** A popular React framework that enables developers to build server-side rendered and statically generated web applications.
 
 - **React:** An open-source JavaScript library used for building user interfaces, especially for single-page applications (SPAs). Developed by Facebook, it has become one of the most popular tools for front-end development.
 
-#### Main Features
-
-#### Main Features
+#### Main Features 🌟
 
 - **Connect to Your Wallet:** Users can securely connect their cryptocurrency wallets to the platform, enabling them to interact with the marketplace and manage their NFTs.
 - **List an NFT:** Users can list their NFTs for sale on the marketplace by specifying the NFT contract, token ID, and desired price.
 - **Buy an NFT:** Users can purchase NFTs listed on the marketplace, ensuring a seamless transaction process that transfers the NFT to the buyer and the payment to the seller.
 
-## Contract Links
+## Contract Links 🔗
 
 - **Marketplace:** [View on Etherscan](https://sepolia.etherscan.io/address/0x32E7E9678407aA2430796E93a1A27D7D251FEE62)
 - **NFT:** [View on Etherscan](https://sepolia.etherscan.io/address/0x830f55d8bc26c2d36E97f89c5D5484A5C34D0D08)
 
-## Team Members
+## Team Members 👥
 
 - **María Liseth González Flores** - [GitHub Profile](https://github.com/Mgonzalez06/Marketplace4)
 - **Jonathan Gamboa** - [GitHub Profile](https://github.com/jongamboa17/Marketplace4)
