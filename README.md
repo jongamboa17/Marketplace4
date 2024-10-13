@@ -3,7 +3,7 @@
 This project features a decentralized marketplace for NFTs, built using Solidity smart contracts. The project leverages Hardhat for development and testing, Ethers.js for blockchain interaction, and a front-end built with Next.js and React to provide a seamless user experience.
 
 
-## Contracts in This Project
+## Project Contracts
 
 ### Marketplace.sol
 
