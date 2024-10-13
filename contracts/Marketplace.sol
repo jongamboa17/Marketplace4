@@ -177,4 +177,8 @@ contract Marketplace is Ownable, Pausable {
             newPrice
         );
     }
+
+    function getListings() external view returns (Listing[] memory) {
+        return listings;
+    }
 }
