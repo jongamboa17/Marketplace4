@@ -1,4 +1,4 @@
-# Sample Hardhat Project
+# NFTs Marketplace 
 
 👷 Hardhat
 
