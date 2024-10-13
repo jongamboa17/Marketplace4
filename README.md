@@ -3,7 +3,7 @@
 This project features a decentralized marketplace for NFTs, built using Solidity smart contracts. The project leverages Hardhat for development and testing, Ethers.js for blockchain interaction, and a front-end built with Next.js and React to provide a seamless user experience.
 
 
-## Project Contracts
+## Contracts in This Project
 
 ### Marketplace.sol
 
@@ -74,7 +74,11 @@ This smart contract in Solidity defines a non-fungible token (NFT) called MyNFT,
 
 #### Main Features
 
-- **Components:** React is based on the concept of components, which are reusable pieces of code representing parts of the user interface. Each component can have its own state and logic, making it easier to create and maintain complex applications.
+#### Main Features
+
+- **Connect to Your Wallet:** Users can securely connect their cryptocurrency wallets to the platform, enabling them to interact with the marketplace and manage their NFTs.
+- **List an NFT:** Users can list their NFTs for sale on the marketplace by specifying the NFT contract, token ID, and desired price.
+- **Buy an NFT:** Users can purchase NFTs listed on the marketplace, ensuring a seamless transaction process that transfers the NFT to the buyer and the payment to the seller.
 
 ## Contract Links
 
