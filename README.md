@@ -1,10 +1,9 @@
-# 👷 Hardhat
+## Project Overview
 
-Hardhat is a development environment for Ethereum that allows developers to build, test, and deploy smart contracts and decentralized applications (dApps). It is a popular tool among blockchain developers due to its robust features and ease of use.
+This project features a decentralized marketplace for NFTs, built using Solidity smart contracts. The project leverages Hardhat for development and testing, Ethers.js for blockchain interaction, and a front-end built with Next.js and React to provide a seamless user experience.
+
 
 ## Contracts in This Project
-
-This project contains two smart contracts that interact with each other:
 
 ### Marketplace.sol
 
@@ -16,6 +15,12 @@ This smart contract in Solidity defines a marketplace for NFTs (non-fungible tok
   - **Listing:** A structure containing information about each listed NFT, including the seller, NFT contract, token ID, price, and sale status.
   - **listings:** An array storing all the NFT listings.
   - **ActiveListings:** A mapping tracking whether an NFT is currently listed.
+
+- **Functions:**
+  - **listNFT:** Allows users to list their NFT by providing the NFT contract, token ID, and price.
+  - **buyNFT:** Enables users to purchase a listed NFT, ensuring the price matches and the NFT is available.
+  - **cancelListing:** Allows sellers to cancel their NFT listing before it is sold.
+  - **updateListingPrice:** Enables sellers to update the price of their listed NFT, provided it hasn't been sold.
 
 #### Main Functions
 
@@ -53,15 +58,17 @@ This smart contract in Solidity defines a non-fungible token (NFT) called MyNFT,
 - **Minting:** Any user can create new NFTs by calling the mint function, specifying who should receive the NFT.
 - **Marketplace Approval:** Allows NFT owners to approve a marketplace to manage their tokens, facilitating the sale or exchange of NFTs in a marketplace.
 
-## Front End
+## 👷 Stack
 
-The front end refers to the part of an application or website that users interact with directly.
+### Back End Stack
 
-### Technologies Used
+- **Hardhat** Hardhat is a development environment for Ethereum that allows developers to build, test, and deploy smart contracts and decentralized applications (dApps). It is a popular tool among blockchain developers due to its robust features and ease of use.
 
-- **JavaScript**
+- **Ethers.js** Ethers.js is a powerful JavaScript library designed to interact with the Ethereum blockchain. It provides a comprehensive set of tools for developers to build decentralized applications (dApps) and manage Ethereum-based assets.
 
-### Interaction with the Back End
+### Front End Stack
+
+- **Next.js:** A popular React framework that enables developers to build server-side rendered and statically generated web applications.
 
 - **React:** An open-source JavaScript library used for building user interfaces, especially for single-page applications (SPAs). Developed by Facebook, it has become one of the most popular tools for front-end development.
 
