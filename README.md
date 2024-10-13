@@ -58,7 +58,7 @@ This smart contract in Solidity defines a non-fungible token (NFT) called MyNFT,
 - **Minting:** Any user can create new NFTs by calling the mint function, specifying who should receive the NFT.
 - **Marketplace Approval:** Allows NFT owners to approve a marketplace to manage their tokens, facilitating the sale or exchange of NFTs in a marketplace.
 
-## 👷 Stack
+## 👷 Dev Stack
 
 ### Back End Stack 🛠️
 
