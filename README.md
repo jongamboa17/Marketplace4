@@ -17,12 +17,6 @@ This smart contract in Solidity defines a marketplace for NFTs (non-fungible tok
   - **listings:** An array storing all the NFT listings.
   - **ActiveListings:** A mapping tracking whether an NFT is currently listed.
 
-- **Functions:**
-  - **listNFT:** Allows users to list their NFT by providing the NFT contract, token ID, and price.
-  - **buyNFT:** Enables users to purchase a listed NFT, ensuring the price matches and the NFT is available.
-  - **cancelListing:** Allows sellers to cancel their NFT listing before it is sold.
-  - **updateListingPrice:** Enables sellers to update the price of their listed NFT, provided it hasn't been sold.
-
 #### Main Functions
 
 - **Pause and Resume:** Only the contract owner can pause or resume the marketplace, which helps stop all operations in case of an issue.
